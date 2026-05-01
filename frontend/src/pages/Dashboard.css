@@ -1,0 +1,36 @@
+.dashboard {
+  padding: 20px;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 120px;
+  font-weight: bold;
+  color: white;
+}
+
+.total {
+  background: #3498db;
+}
+
+.completed {
+  background: #2ecc71;
+}
+
+.pending {
+  background: #f39c12;
+}
+
+.overdue {
+  background: #e74c3c;
+}
